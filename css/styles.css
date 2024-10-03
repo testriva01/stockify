@@ -11132,7 +11132,7 @@ footer a:hover, footer a:active, footer a:focus {
     display: block;
   }
   .masthead .masthead-device-mockup .device-wrapper {
-    max-width: 12.5rem;
+    max-width: 20rem;
   }
 }
 @media (min-width: 768px) {
@@ -11140,7 +11140,7 @@ footer a:hover, footer a:active, footer a:focus {
     width: 60%;
   }
   .masthead .masthead-device-mockup .device-wrapper {
-    max-width: 15rem;
+    max-width: 20rem;
   }
 }
 @media (min-width: 992px) {
@@ -11148,7 +11148,7 @@ footer a:hover, footer a:active, footer a:focus {
     width: 90%;
   }
   .masthead .masthead-device-mockup .device-wrapper {
-    max-width: 15rem;
+    max-width: 20rem;
   }
 }
 @media (min-width: 1200px) {

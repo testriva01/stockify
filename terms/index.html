@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="股票 存股 記帳，隨時追蹤你的股票損益" />
+        <meta name="author" content="stockify" />
+        <link rel="icon" type="image/png" href="../assets/favicon.png" />
+        <title>簡單台股記帳APP-隨時追蹤你的股票損益</title>
+
+        
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+
+        <!-- Google fonts-->
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,600;1,600&amp;display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;0,500;0,600;0,700;1,300;1,500;1,600;1,700&amp;display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;1,400&amp;display=swap" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="../css/styles.css" rel="stylesheet" />
+    </head>
+
+
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top shadow-sm" id="mainNav">
+            <div class="container px-4">
+
+                <a class="navbar-brand fw-normal" href="../index.html">
+                <img src="../assets/favicon.png" alt="App Logo" style="height: 40px; margin-right: 8px;">簡單台股記帳APP</a>
+
+                <div id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
+                        <li class="nav-item"><a class="nav-link me-lg-3" href="../index.html">回首頁</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+
+        <!-- Privacy Policy Section -->
+        <section class="bg-light" style="padding-top: 150px;">
+            <div class="container px-4">
+                <div class="row gx-5 align-items-center justify-content-center">
+                    <div class="col-12 text-center mb-4">
+                        <h2 class="display-5 lh-1 mb-4">使用者條款</h2>
+                    </div>
+                    <div class="col-12">
+                        <ul class="text-start">
+                            <p>感謝您使用「Stockify簡單台股記帳APP」（以下簡稱本軟體），當您開始使用本軟體時，即表示已閱讀、瞭解並同意接受本服務條款之所有現有與未來衍生之服務項目與內容。</p>
+                            <p>若您為未滿二十歲之未成年人，則應請您的父母或監護人閱讀、了解並同意本服務條款之所有內容及其後之修改變更，方得使用本軟體。當您使用本軟體時，即推定您的父母或監護人已閱讀、了解並同意接受本服務條款之所有內容及其後之修改變更。</p>
+                            <p>使用我們的服務均須遵守本軟體隱私權政策 <a href="../privacy/index.html">https://stockify.tw/privacy</a></p>
+
+                            <h6>一、智慧財產權</h6>
+                            <p>本軟體所提供的任何服務、軟體、內容、文字及程式編碼的智慧財產權皆屬於本開發者或其他授權人所有。本開發者僅授權您使用的權利，未經合法授權請勿翻載，您不得逕自複製、傳送、抄襲、散布、修改、鏈接、展示、使用、進行還原工程、解編或反向組譯、轉讓或出售本軟體的任何内容（包括但不限於任何影音、文字、圖像、應用程式、名稱、商標及標記）或使用任何該等内容作商業用途。</p>
+
+                            <h6>二、取消訂閱</h6>
+                            <p>本軟體的訂閱相關金流皆由 Apple 公司與Google公司負責，如有金流相關問題，請直接與 <a href="https://support.apple.com/zh-tw/118428">Apple 客服</a> 與 <a href="https://support.google.com/googleplay/answer/7018481?hl=zh-Hant&co=GENIE.Platform%3DAndroid">Google客服</a>聯繫。</p>
+                            <p>您可在訂閱期間隨時取消本軟體的訂閱服務，當期計費週期結束時即完成取消訂閱。取消訂閱無法退回已付之訂閱費用，之前扣除的訂閱費用無法根據取消日期按比例退回。刪除本軟體不會自動取消本訂閱服務。如需取消訂閱請參閱 <a href="https://support.google.com/googleplay/answer/7018481?hl=zh-Hant&co=GENIE.Platform%3DAndroid">Google支援文章</a> 或 <a href="https://support.apple.com/zh-tw/118428">Apple支援文章</a>。</p>
+
+                            <h6>三、免責聲明</h6>
+                            <p>本軟體不負責保存您的個人記帳資料，請您務必自行做好資料備份動作。</p>
+                            <p>本軟體及 Stockify 其他產品與服務提供的所有數據資訊僅供參考，不得作為任何交易之依據，此數據不反映本軟體的觀點也無任何推介買賣之意。如您依此數據資料內容進行任何投資決策、創作傳送或展示之行為所產生之風險盈虧後果，應由您完全自行承擔責任，本軟體不對使用者之投資決策或行為對使用者或任何第三方負任何損益賠償與法律責任。</p>
+                            <p>本軟體不保證提供之所有服務、功能、數據資訊內容之完整性、準確性、即時性、可靠性、安全性，對於因軟硬體設備之故障、人為上疏忽、使用者之網路設備問題、系統維護升級或任何不可抗力之因素導致資訊無法正常傳輸、延遲更新或中斷等異常，造成任何資料內容損失或損害，本軟體均不承擔任何法律責任。</p>
+                            <p>本軟體不擔保其相關產品與服務之所有連結到其他第三方網站的正確性、真實性、即時性、及完整性，對被連結之網站所提供任何資訊內容，本軟體均不對其交易安全、商品及服務內容負任何擔保責任。</p>
+
+
+                            <h6>四、您授與本服務的權利</h6>
+                            <h6>Google Drive 與 iCloud 雲端備份還原</h6>
+                            <p>如果你有使用本軟體的雲端備份還原相關功能，即代表您授權本軟體得依照您提供的登入資訊存取 Google Drive 與 iCloud 雲端資料。本軟體對於所存取內容之正確性不負保證責任。本軟體依客戶需求提供存取服務，如 Google Drive 與 iCloud 服務中斷或因為流量超載無法存取資料，儲存於本服務之內容可能並非具有即時性、最終性與有效性。</p>
+                        
+
+
+                            <p>如您欲使用Google Drive進行雲端備份與還原，即表示您同意本軟體以下事項：</p>
+
+                            <ul>
+                                <li style="font-weight: normal;">查看您的主要 Google 帳戶電子郵件地址</li>
+                                <li style="font-weight: normal;">查看您的個人資訊，包括您已公開的任何個人資訊</li>
+                                <li style="font-weight: normal;">查看、編輯、建立及刪除您透過這個應用程式使用的特定 Google 雲端硬碟檔案</li>
+                                <li style="font-weight: normal;">查看、建立及刪除此應用程式本身在您 Google 雲端硬碟中的設定資料</li>
+
+                            </ul><br>
+
+                            <h6>五、使用規範與義務</h6>
+                            <p>您承諾絕不為任何非法目的或以任何非法方式使用本軟體，並承諾遵守中華民國相關法規及一切使用網際網路之國際慣例。 您若係中華民國以外之使用者，並同意遵守所屬國家或地域之相關法規。您同意並保證絕不利用本服務從事違法或損害他人權益之行為，</p>
+                            <ul>
+                                <li style="font-weight: normal;">冒用他人名義使用本服務、包括但不限於冒名註冊或擅自登入他人帳號。</li>
+                                <li style="font-weight: normal;">侵害他人名譽、隱私權、營業秘密、商標權、著作權、專利權、其他智慧財產權及其他權利。</li>
+                                <li style="font-weight: normal;">公布或傳送任何不實、誹謗、侮辱、具威脅性、攻擊性、違背公序良俗、引人犯罪或其他不法之文字、圖片或任何形式的檔案。</li>
+                                <li style="font-weight: normal;">違反依法律或契約所應負之保密義務。</li>
+                                <li style="font-weight: normal;">傳輸或散佈電腦病毒。</li>
+                                <li style="font-weight: normal;">未經他人同意而擅自複製他人資訊轉售、轉載。</li>
+                                <li style="font-weight: normal;">破壞及干擾本服務所提供之各項資料、活動或功能，或以任何方式侵入、試圖侵入、破壞本服務之任何系統，或藉由本服務為任何侵害或破壞行為。</li>
+                                <li style="font-weight: normal;">未經同意收集他人電子郵件位址及其他個人資料者。</li>
+                                <li style="font-weight: normal;">其他本軟體有正當理由認為不適當之行為。</li>
+                            </ul><br>
+                            <h6>六、使用者條款之修正</h6>
+                            <p>本軟體有權於任何時間修改或變更本服務條款之內容，修改後的服務條款內容將公佈於網站上，本軟體將不會個別通知會員，建議會員隨時注意該等修改或變更。會員於任何修改或變更後繼續使用本軟體時，視為會員已閱讀、瞭解並同意接受該等修改或變更。</p>
+
+                            <h6>七、服務終止</h6>
+                            <p>如您不同意本服務條款的內容、修訂或更新方式，或不接受本服務條款的其他任一約定，您應立即停止使用本服務並移除本軟體。</p>
+                            <p>如果您對於使用者條款有任何疑問或建議，請隨時來信至 <a href="mailto:stockify.tw@gmail.com">stockify.tw@gmail.com</a> 與我們聯繫。</p>
+
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+        <!-- Footer-->
+        <footer class="bg-black text-center py-5">
+            <div class="container px-5">
+                <div class="text-white-50">
+                    <div class="mb-2">&copy; Stockify 2022. All Rights Reserved.</div>
+                    
+                    <a href="../privacy/index.html">Privacy</a>
+                    <span class="mx-1">&middot;</span>
+                    <a href="../terms/index.html">Terms</a>
+                    <span class="mx-1">&middot;</span>
+                    <a href="mailto:stockify.tw@gmail.com">stockify.tw@gmail.com</a>
+                </div>
+            </div>
+        </footer>
+
+
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="../js/scripts.js"></script>
+
+
+    </body>
+</html>
